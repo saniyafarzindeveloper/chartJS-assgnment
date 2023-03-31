@@ -1,13 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;600&family=Source+Code+Pro:wght@300&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Source Code Pro", monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home-container {
+  background-color: rgb(246, 246, 246);
+  width: 100vw;
+  height: 150vh;
+}
+
+.hope {
+  margin-top: 30px;
+  /* background-color: brown; */
+  width: 25vw;
+  height: 15vh;
+  margin-left: 50px;
+}
+
+.hope-heading {
+  margin-bottom: 7px;
+  font-size: 50px;
+  font-weight: 800 !important;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
+
+.lines {
+  margin: 0;
+}
+
+.underline {
+  /* text-decoration: underline; */
+  /* color: red; */
+  border-bottom: 4px solid red;
+}
+
+/* .underline::after{
+    border-bottom-color: blue;
+} */
+
+.wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+
+.dogs{
+    /* background-color: crimson; */
+    margin-right: 70px;
+}
+
+.img-dogs{
+    margin-top: 50px;
 }
