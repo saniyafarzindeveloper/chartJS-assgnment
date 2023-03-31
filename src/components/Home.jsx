@@ -1,11 +1,14 @@
 import React from "react";
 import "../index.css";
 import "../images/fourdogs.png";
+import Heading from "./Heading";
+import Graphs from "./Graphs";
+
 
 export default function Home() {
   return (
     <div className="home-container">
-      <div className="wrapper">
+      {/* <div className="wrapper">
         <div className="hope">
           <h1 className="hope-heading">Last Hope K9</h1>
           <h2 className="lines">Where a last hope</h2>
@@ -23,7 +26,10 @@ export default function Home() {
             className="img-dogs"
           />
         </div>
-      </div>
+      </div> */}
+
+<Heading />
+<Graphs/>
     </div>
   );
 }
