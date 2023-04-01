@@ -5,7 +5,7 @@ export default function Characteristics() {
   return (
     <div className="div-chars">
       <h2 className="char-heading">Characteristics</h2>
-      <h3 className="dog-portion">Portion of dogs that...</h3>
+      <h3 className="dog-portion">Proportion of dogs that...</h3>
 
       <div className="char-wrapper">
         Gets along with dogs
@@ -41,6 +41,59 @@ export default function Characteristics() {
       </div>
       </div>
       
+      {/* breeds */}
+
+      <div className="breeds" >
+        <h3 className="breed-heading" >Top 10 Primary Breeds(Including Mixes)</h3>
+
+        <div className="breed-types-wrapper" >
+        <div class="lab-breed">
+           Labrador
+            <div class="lab-no"></div>
+            1,422
+          </div>
+
+          <div class="pit-breed">
+           Pit
+            <div class="pit-no"></div>
+           843
+          </div>
+
+          <div class="hound-breed">
+          Hound
+            <div class="hound-no"></div>
+           400
+          </div>
+
+          <div class="shep-breed">
+          Shepherd
+            <div class="shep-no"></div>
+           376
+          </div>
+
+          <div class="ter-breed">
+          Terrier
+            <div class="shep-no"></div>
+           306
+          </div>
+
+          <div class="ame-breed">
+         American
+            <div class="ame-no"></div>
+           157
+          </div>
+
+          <div class="cata-breed">
+         Catahoula
+            <div class="cata-no"></div>
+          155
+          </div>
+
+        
+
+        </div>
+        
+      </div> 
     </div>
   );
 }
