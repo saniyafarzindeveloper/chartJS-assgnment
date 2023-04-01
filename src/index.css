@@ -8,7 +8,7 @@ body {
 .home-container {
   background-color: rgb(246, 246, 246);
   width: 100vw;
-  height: 150vh;
+  height: 120vh;
 }
 
 .hope {
@@ -29,6 +29,7 @@ body {
 
 .lines {
   margin: 0;
+  color: rgb(97, 97, 97);
 }
 
 .underline {
@@ -41,16 +42,217 @@ body {
     border-bottom-color: blue;
 } */
 
-.wrapper{
-    display: flex;
-    justify-content:space-between;
+.wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-.dogs{
-    /* background-color: crimson; */
-    margin-right: 70px;
+.dogs {
+  /* background-color: crimson; */
+  margin-right: 70px;
 }
 
-.img-dogs{
-    margin-top: 50px;
+.img-dogs {
+  margin-top: 50px;
+}
+
+.graph-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: deeppink; */
+  width: 100vw;
+  height: 90%;
+}
+
+.div-lives {
+  /* background-color: lavenderblush; */
+  height: 80%;
+  width: 33vw;
+  border-right: 2px solid rgb(220, 220, 220);
+}
+
+.div-avg {
+  /* background-color: cornflowerblue; */
+  height: 80%;
+  width: 33vw;
+}
+
+.div-chars {
+  /* background-color: darksalmon; */
+  height: 80%;
+  width: 33vw;
+}
+
+.ls-heading,
+.at-heading,
+.char-heading {
+  font-size: 35px;
+  font-weight: 900;
+  margin-left: 20%;
+  margin-bottom: 0;
+  color: rgb(97, 97, 97);
+}
+
+.ls-no {
+  font-size: 60px;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20%;
+}
+
+.at-days {
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  margin-left: 40%;
+  font-size: 37px;
+}
+
+.horizontal-bar {
+  /* background-color: hotpink; */
+  height: 37%;
+  width: 100%;
+}
+
+.age-bucket-time {
+  margin: 0;
+  margin-top: 25px;
+  margin-left: 83px;
+}
+
+.line-chart-2 {
+  /* background-color: rgb(253, 199, 117); */
+  margin: 0;
+  width: 100%;
+  height: 45%;
+}
+
+.at-line-chart-style {
+  margin: 30px;
+}
+
+.time-adopt-heading {
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+.puppy-at {
+  display: flex;
+}
+
+.puppy {
+  /* width: 50px;
+  height: 10px; */
+  background-color: rgb(151, 226, 231);
+  margin: 7px;
+}
+
+.thirty {
+  width: 70px;
+  height: 10px;
+}
+
+.at-container-div {
+  /* background-color: darkgrey; */
+  width: 70%;
+  height: 23%;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.eithy-five {
+  width: 120px;
+  height: 10px;
+}
+
+.hundred {
+  width: 150px;
+  height: 10px;
+}
+
+.note {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+
+.dog-portion {
+  color: rgb(97, 97, 97);
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.container {
+  display: flex;
+  height: 20px;
+  width: 150px;
+  margin-left: 20px;
+  background-color: rgb(211, 211, 211);
+}
+
+.child-1 {
+  /* flex: 1; */
+  width: 90px;
+  background-color: rgb(151, 226, 231);
+}
+
+.child-2 {
+  width: 5px;
+  background-color: rgb(92, 96, 103);
+}
+
+.char-wrapper {
+  display: flex;
+  width: 80%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.child-3 {
+  /* flex: 1; */
+  width: 50px;
+  background-color: rgb(151, 226, 231);
+}
+
+.child-4 {
+  width: 10px;
+  background-color: rgb(92, 96, 103);
+}
+
+.child-5 {
+  /* flex: 1; */
+  width: 74px;
+  background-color: rgb(151, 226, 231);
+}
+
+.child-6 {
+  width: 6px;
+  background-color: rgb(92, 96, 103);
+}
+
+.are {
+  background-color: rgb(151, 226, 231);
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+.labels {
+  display: flex;
+  margin-left: 30px;
+}
+
+.not {
+  background-color: rgb(92, 96, 103);
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+.not-sure {
+  background-color: rgb(211, 211, 211);
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
 }
